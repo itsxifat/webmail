@@ -16,6 +16,17 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Enfinito Cloud | Enterprise Email Infrastructure",
   description: "High-performance email hosting for modern teams.",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  other: {
+    "google-adsense-account": "ca-pub-9865950662428313",
+  },
 };
 
 export default function RootLayout({ children }) {
